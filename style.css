@@ -208,6 +208,9 @@ p{
 
 
 @media(max-width: 37.4375rem){
+    body{
+        display: block;
+    }
     .container{
         display: flex;
         flex-wrap: wrap;
@@ -217,6 +220,6 @@ p{
     .img{
         content: url(./images/image-product-mobile.jpg);
         max-width: 100%;
-        
+        border-radius: 0;
     }
 }
